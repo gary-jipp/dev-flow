@@ -1,7 +1,6 @@
 /*
  * Modify the contents of the function below, such that:
- *
- * If we're not hungry, we want to tell ourselves to wait until we're hungry.
+ *lunch.js If we're not hungry, we want to tell ourselves to wait until we're hungry.
  * Otherwise, we want to pick up a snack or grab something we have ready at home
  * we've got less than 20 minutes, or to take a break and cook a tasty meal if
  * we've got between 20 and 30 minutes. If we have any more time than that,
