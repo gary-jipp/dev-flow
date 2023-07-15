@@ -15,6 +15,22 @@
 
 function whatToDoForLunch(hungry, availableTime) {
 
+  if (!hungry) {
+    console.log("Not hungry. Should get to work");
+    return;
+  }
+
+  if (availableTime < 20) {
+    console.log("pick up a snack or grab something at home");
+    return;
+  }
+
+  if (availableTime <= 30) {
+    console.log("more time.  take a break and cook a meal");
+    return;
+  }
+
+  console.log("Get back to work");
 }
 
 /*
